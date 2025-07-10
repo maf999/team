@@ -25,7 +25,7 @@ jobs:
           platform: aab
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4 # <--- تم التحديث إلى الإصدار v4
         with:
           name: Flet-Android-Builds
           path: |
